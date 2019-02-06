@@ -15,12 +15,12 @@ public class CollectionUtils {
 
     public static <T> int indexOf(List<? extends T> source, T object) {
         return source.indexOf(object);
-    }
+    } //возвращает индекс объекта
 
     ///????
     public static <T> List<T> limit(List< T> source, int size) {
         return source.subList(0, size);
-    }
+    } //обрезает с 0 по size элемент массив
 
     public static <T> void add(List< T> source, T o) {
         source.add(o);
